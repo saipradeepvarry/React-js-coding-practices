@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.destinationItemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.destinationImage {
+  height: 30vh;
+  width: 30vw;
+}
+
+.destinationName {
+  text-align: left;
+  font-family: Open Sans;
+}

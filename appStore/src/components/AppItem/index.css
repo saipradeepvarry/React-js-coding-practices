@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.app-container {
+  text-align: center;
+  height: 180px;
+  width: 160px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 25px;
+}
+
+.app-image {
+  height: 80px;
+  width: 60px;
+}

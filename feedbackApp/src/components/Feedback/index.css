@@ -1,0 +1,81 @@
+/* Write your CSS code here. */
+.bg {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 5%;
+  background-color: #ffffff;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  max-height: 70vh;
+  min-width: 80vw;
+  padding: 10px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 24px;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  height: 10vh;
+  width: 10vw;
+}
+
+.emojiList {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  height: 20vh;
+  width: 10vw;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.responseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizing {
+  height: 10vh;
+  width: 5vw;
+}

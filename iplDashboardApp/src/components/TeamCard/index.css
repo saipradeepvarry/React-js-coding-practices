@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.team-card {
+  width: 35%;
+  margin-bottom: 2vh;
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  margin-left: 16px;
+  overflow-wrap: wrap;
+}
+
+.link {
+  height: 15vh;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 2vw;
+  border: 2px solid #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

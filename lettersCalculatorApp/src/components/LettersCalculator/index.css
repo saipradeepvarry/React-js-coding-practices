@@ -1,0 +1,61 @@
+/* Write your code here. */
+.bg {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+}
+
+.cardContainer {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Roboto;
+}
+
+.heading {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.para {
+  font-size: 1em;
+  color: #e4e7eb;
+  margin-bottom: 15px;
+}
+
+.searchBar {
+  height: 5vh;
+  width: 40vw;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: #e4e7eb;
+  border-style: solid;
+  color: #ffffff;
+}
+
+.result {
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  height: 10vh;
+  width: 18vw;
+  text-align: center;
+  color: #219a6f;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.bgImage {
+  width: 40vw;
+  height: 60vh;
+}

@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  padding: 70px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  flex-shrink: 1;
+}
+.card {
+  background-color: #ffffff;
+  width: 82vw;
+  padding: 60px;
+  text-align: center;
+  flex-shrink: 1;
+  border-radius: 10px;
+}
+.heading {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+span {
+  color: #ffd569;
+}
+button {
+  background-color: #007bff;
+  height: 32px;
+  width: 90px;
+  border: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.fruit-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.mango-container,
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .fruit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
+  }
+  .main-container {
+    background-color: #ffd569;
+    padding: 30px;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: 120vh;
+  }
+}

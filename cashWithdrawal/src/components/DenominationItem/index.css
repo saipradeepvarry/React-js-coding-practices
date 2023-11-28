@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.btn {
+  font-family: Roboto;
+  height: 50px;
+  width: 18vw;
+  color: #d4d2db;
+  border-style: solid;
+  border-color: #d4d2db;
+  background-color: #382f5a;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}

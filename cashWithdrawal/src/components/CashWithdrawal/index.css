@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  height: 90vh;
+  width: 50vw;
+  border-radius: 20px;
+  font-family: Roboto;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 75px;
+  width: 75px;
+  border-radius: 37.5px;
+  font-size: 25px;
+  margin-right: 3%;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 28px;
+}
+
+.balanceStatementContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.balanceText {
+  font-size: 28px;
+  color: #585076;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: start;
+}
+.balanceNumber {
+  font-size: 32px;
+  color: #d4d2db;
+}
+
+.currency {
+  font-size: 18px;
+  color: #585076;
+  text-align: right;
+}
+
+.text2 {
+  font-size: 32px;
+  color: #d4d2db;
+}
+
+.text3 {
+  font-size: 24px;
+  color: #382f5a;
+}
+
+.list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.button {
+  height: 50px;
+  width: 250px;
+  color: #d4d2db;
+  border-style: solid;
+  border-color: #d4d2db;
+  background-color: #382f5a;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 32px;
+}
